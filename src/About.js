@@ -3,8 +3,8 @@ import React from 'react'
 
 function About() {
   return (
-    <div id='aboutme' style={{backgroundColor:'#ffccbc',padding :'20px'}}> 
-      <Typography variant="h4" style={{color:'#4a148c'}}>About Me</Typography>
+    <div id='aboutme' style={{backgroundColor:'black',padding :'20px'}}> 
+      <Typography variant="h4" style={{color:'white'}}>About Me</Typography>
       <Typography variant="subtitle1" style={{color:'#616161'}}>I have been working on web 
       development tools and developing my skill of designing efficient Web Applications.</Typography>
       <Grid container spacing={4} style={{marginTop:'5px'}}>

@@ -4,8 +4,8 @@ import {MarkdownCard, CommerceCard, ExpenseTracker} from './ProjectCard';
 
 function projects() {
   return (
-      <div id='projects' style={{backgroundColor:'#ffccbc', paddingTop:'10px',paddingBottom:'20px'}}> 
-    <Typography variant="h3" style={{margin:'10px',marginTop:'30px'}}>PROJECTS</Typography>
+      <div id='projects' style={{backgroundColor:'black', paddingTop:'10px',paddingBottom:'20px'}}> 
+    <Typography variant="h3" style={{marginLeft:'40px',marginTop:'30px',marginBottom:'20px',color:'white'}}>Projects</Typography>
     <Grid container spacing={3} style={{paddingRight:'25px', paddingLeft:'10px'}}>
         <Grid item  sm={4} >
         <MarkdownCard/> 
