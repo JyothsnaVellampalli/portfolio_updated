@@ -1,9 +1,12 @@
 import { Typography, Box, AppBar, Container, Toolbar, Button, Avatar, IconButton } from '@mui/material';
 import React from 'react';
 import GitHubIcon from '@mui/icons-material/GitHub';
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
+
 
 function Navbar() {
+  const Opengithub = ()=>{
+    window.open("https://github.com/JyothsnaVellampalli/");
+  }
   
   return (
     
@@ -19,18 +22,12 @@ function Navbar() {
                     <a href='#projects' style={{textDecoration:'none', color:'white',padding:'8px'}} >PROJECTS</a>
                     <a href='#technologies' style={{textDecoration:'none', color:'white',padding:'8px'}}>TECHNOLOGIES</a>
                     <a href='#aboutme' style={{textDecoration:'none', color:'white',padding:'8px'}}>ABOUT ME</a>
-                    <IconButton >
+                    <IconButton onClick={Opengithub} >
                     <Avatar>
-                      <a href='https://github.com/JyothsnaVellampalli/'>
                     <GitHubIcon/>
-                    </a>
                     </Avatar>
-                    </IconButton>
-                    <Avatar>
-                    <a href='https://www.linkedin.com/in/jyothsna-vellampalli-5aa15417b/'>
-                    <LinkedInIcon/>
-                    </a>
-                    </Avatar>
+                    </IconButton >
+                    
                     
             </Toolbar>
           </Container>
